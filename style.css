@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin:20px 20px ;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family:'Poppins', sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.buttonarea button{
+    padding: 10px;
+    font-family:'Poppins', sans-serif;
+    font-size: 18px;
+    color: black;
+    border: none;
+}
+.buttonarea{
+    display: flex;
+    gap: 3px;
+    margin-right: 20px;
+}
+.para{
+    margin-top:16px;
+}
+.navbar a{
+    font-size: 16px;
+    color: white;
+    }
+
+.navbar :nth-child(1){
+    color: white;
+    font-weight: bold;
+}
+p{
+    font-family: Poppins;
+}
+.emp{
+    font-family:'Poppins', sans-serif;
+    font-size: 18px;
+    color:white;
+    font-weight: bold;  
+}
+.buttonarea :nth-child(1){
+    margin-right: 15px;
+    color: white;
+}
+.loginbtn{
+    color: black;
+    background-color: transparent;
+    color: white;
+}
+.signupbtn{
+    background-color:#FD5308;
+    color: white;
+    border-radius: 5px;
+}
+section{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./images/Rectangle\ 3.jpg');
+    height: 743px;
+    width: 100%;
+    border-radius: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*main{
+    background-image: url(./images/Rectangle\ 3.jpg);
+    height: 743px;
+    width: 100%;
+    border-radius: 0px;
+    }*/
+
+.center{
+    /* height: 184px; */
+    /* width: 646px; */
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 92px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    /* margin-top: 214px; */
+    /* margin-left: 397px;  */
+}
+.p{
+    height: 86px;
+    width: 711px;
+    color: white;
+    opacity: 0.9;
+    margin-top: 40px;
+    margin-left: 357px;
+    padding: 3px 10px;
+}
+main{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./images/Rectangle\ 3.jpg');
+    height: 743px;
+    width: 100%;
+    border-radius: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+lowersection 
+{
+    margin-top:70px;
+    margin-left:410px;
+    background-color: white;
+    height: 70px;
+    width: 516px;
+    border-radius: 15px;
+    display: flex;
+    margin-right: 20px;
+    align-items: center;
+    padding-bottom: 5px;
+    position: relative;
+    padding: 20px 20px;
+    border:1px solid #FD5308;
+}
+.icons{
+    color: #FD5308;
+    font-size:20px;
+}
+/* .inc{ 
+    border-right: solid #FD5308;
+}
+*/
+.p1{
+    border-right: 5px solid blue"
+}
+.lowerflex{
+    display: flex;
+    flex: 1;
+    /* margin:0 20px; */
+}
+.vh1{
+    border-right: 1px solid #FD5308;
+    height:70px;
+    padding-right: 65px;
+}
+.vh2{
+    border-right:1px solid #FD5308;
+    height:70px;
+    padding-right: 65px;
+}
+.kiki{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        display: none;
+    }
+}
+
